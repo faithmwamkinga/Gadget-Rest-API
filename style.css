@@ -293,6 +293,17 @@ h3{
       grid-template-columns: repeat(1,2fr);
       
     }
+    .devicess{
+        height: 80vh;
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+        
+      }
+      .devicess img{
+         margin-top: -40%;
+         margin-left: 25%;
+
+      }
     .order{
       width: 22vw;
     }
@@ -333,7 +344,30 @@ h3{
      }
     .gadgetsfooter{
         display: grid;
-        /* grid-template-columns: repeat(5,1fr); */
+    }
+    #products{
+        display: grid;
+        grid-template-columns: repeat(1,8fr);
+        width: 90%;
+        margin-left: 2%;
+    }
+    #products img{
+        width: 40vw;
+    }
+    .musicvid{
+        display: grid;
+        grid-template-columns:repeat(1,2fr);
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .testimony{
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+    }
+    .testimony img{
+        margin-left: 20%;
+        width: 60vw;
     }
 
   }
