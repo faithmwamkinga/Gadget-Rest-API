@@ -201,7 +201,7 @@ h2{
     height: 8vh;
     color: black;
     text-align: left;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 #send img{
     /* margin-bottom: 10%; */
@@ -215,36 +215,126 @@ h2{
     margin-top: 10%;
     margin-left:15% ;
 }
-
-.product-card {
-    display: inline-block;
-    width: 25%;
-    padding: 10px;
-    box-sizing: border-box;
-    text-align: center;
-  }
-  .product-card img {
-    width: 100%;
-    height: auto;
-    max-height: 200px;
-  }
-  .product-card h2 {
-    margin-top: 10px;
-    font-size: 18px;
-  }
-  .productPrice {
-    margin-top: 10px;
-    font-weight: bold;
-  }
-  .productPrice p {
-    margin: 0;
-  }
-  .productPrice button {
-    margin-top: 10px;
-    padding: 8px 16px;
-    background-color: #4CAF50;
+.gadgetsfooter{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color: #101111;
     color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    height: 50vh;
+    
+}
+#gadge{
+    color: #e0df1f;
+}
+h3{
+    font-size: 30px;
+    margin-left: 10%;
+}
+.gadgets{
+    margin-top: 18%;
+}
+.gadgets p{
+    margin-left: 10%;
+}
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.product{
+    border: solid #393d3d;
+    margin-bottom: 3%;
+    border-radius: 30px;
+    text-align: center;
+}
+.product img{
+    width: 27vw;
+    height: 25vh;
+    border-radius: 30px;
+}
+
+
+@media (max-width:768px){
+  .nav{
+    gap: 12px;
   }
+  .devices{
+    height: 80vh;
+  }
+  .order{
+    width: 10vw;
+  }
+  .right img{
+    margin-top: -8%;
+  }
+    .items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+  .product{
+    margin-top: 15%;
+  }
+
+  @media (max-width:390px){
+    .category{
+        height: 7vh;
+    }
+    .search{
+        width: 30vw;
+        margin-left: -15%;
+
+    }
+    .devices{
+      height: 80vh;
+      display: grid;
+      grid-template-columns: repeat(1,2fr);
+      
+    }
+    .order{
+      width: 22vw;
+    }
+    .explore{
+        width: 22vw;
+    }
+    .right img{
+      margin-bottom: -14%;
+      margin-left: 8%;
+      height: 30vh;
+    }
+      .items{
+      display: grid;
+      grid-template-columns: repeat(1,6fr);
+      margin-top: 2%;
+      margin-left: 20%;
+    }
+    .accessories{
+        width: 60vw;
+        height: 20vh;
+    }
+    .accessories img{
+        width: 40vw;
+        height: 15vh;
+    }
+    .product{
+      margin-top: 15%;
+    }
+
+
+     #sub{
+        font-size: 20px;
+        margin-left: 2%;
+     }
+     #emails{
+        height: 7vh;
+        margin-top: 22%;
+     }
+    .gadgetsfooter{
+        display: grid;
+        /* grid-template-columns: repeat(5,1fr); */
+    }
+
+  }
+}
