@@ -1,6 +1,6 @@
 const productContainer=document.getElementById("products")
 const getProducts=()=>{
-  return fetch("https://dummyjson.com/products?limit=8")
+  return fetch("https://dummyjson.com/products?limit=9")
   .then(response=>response.json())
   .then(response=>response)
   .catch(error=>error)
